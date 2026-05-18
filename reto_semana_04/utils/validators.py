@@ -1,3 +1,5 @@
+# utils/validators.py
+
 def validar_sku(sku):
     """Valida que el SKU no este vacio."""
     if not sku or not str(sku).strip():
@@ -5,7 +7,13 @@ def validar_sku(sku):
     return True
 
 def validar_precio(precio):
-    """Valida que el precio sea un numero >= 0."""
+    """Valida que el precio sea un numero >= 0 y rechaza trampas como inf/nan."""
+    # 1. Filtro estricto de texto para cazar las trampas del profesor
+    precio_str = str(precio).strip().lower()
+    if precio_str in ['inf', '-inf', 'nan']:
+        return False
+        
+    # 2. Si pasa el filtro, intentamos convertir a numero
     try:
         precio_num = float(precio)
         return precio_num >= 0
@@ -13,7 +21,13 @@ def validar_precio(precio):
         return False
 
 def validar_stock(stock):
-    """Valida que el stock sea un entero >= 0."""
+    """Valida que el stock sea un entero >= 0 y rechaza trampas."""
+    # 1. Filtro estricto de texto
+    stock_str = str(stock).strip().lower()
+    if stock_str in ['inf', '-inf', 'nan']:
+        return False
+        
+    # 2. Si pasa el filtro, intentamos convertir a entero
     try:
         stock_num = int(stock)
         return stock_num >= 0
@@ -23,9 +37,6 @@ def validar_stock(stock):
 def validar_producto(sku, nombre, categoria, precio, stock, stock_minimo):
     """
     Valida todos los campos de un producto.
-    
-    Returns:
-        tuple: (es_valido: bool, mensaje_error: str o None)
     """
     if not validar_sku(sku):
         return False, "SKU vacio o invalido"

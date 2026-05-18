@@ -1,4 +1,4 @@
-"""fecha,producto,cantidad,precio_unitario
+fecha,producto,cantidad,precio_unitario
 2026-01-01,Laptop,2,15000.00
 2026-01-02,Mouse,10,250.00
 2026-01-03,Laptop,1,14500.00
@@ -8,4 +8,4 @@
 2026-01-07,Laptop,2,15500.00
 2026-01-08,Audifonos,20,350.00
 2026-01-09,Mouse,5,275.00
-2026-01-10,Monitor,2,5800.00"""
+2026-01-10,Monitor,2,5800.00
