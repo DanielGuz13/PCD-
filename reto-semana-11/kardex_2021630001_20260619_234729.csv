@@ -1,0 +1,8 @@
+﻿boleta,nombre_estudiante,materia_id,materia,creditos,parcial_1,parcial_2,final,promedio_materia,aprobado,promedio_general,creditos_cursados,materias_aprobadas,materias_reprobadas
+2021630001,Juan Pérez García,BD101,Bases de Datos,6,7.4,8.3,8.2,7.966666666666666,True,6.2,46,4,3
+2021630001,Juan Pérez García,EST101,Probabilidad,6,8.6,6.4,6.1,7.033333333333334,True,6.2,46,4,3
+2021630001,Juan Pérez García,EST102,Estadística Inferencial,6,4.8,4.7,5.8,5.1000000000000005,False,6.2,46,4,3
+2021630001,Juan Pérez García,MAT101,Cálculo Diferencial,8,5.8,7.2,7.0,6.666666666666667,True,6.2,46,4,3
+2021630001,Juan Pérez García,MAT102,Cálculo Integral,8,6.1,4.5,4.8,5.133333333333333,False,6.2,46,4,3
+2021630001,Juan Pérez García,PROG101,Programación I,6,3.9,7.5,6.9,6.1000000000000005,True,6.2,46,4,3
+2021630001,Juan Pérez García,PROG102,Programación II,6,4.9,5.8,5.4,5.366666666666667,False,6.2,46,4,3

@@ -1,0 +1,85 @@
+{
+    "estudiante": {
+        "boleta": "2021630001",
+        "nombre": "Juan Pérez García",
+        "semestre": 4,
+        "carrera": "CD",
+        "email": "juan.perez@ipn.mx"
+    },
+    "materias": [
+        {
+            "materia_id": "BD101",
+            "materia": "Bases de Datos",
+            "creditos": 6,
+            "parcial_1": 7.4,
+            "parcial_2": 8.3,
+            "final": 8.2,
+            "promedio_materia": 7.966666666666666,
+            "aprobado": true
+        },
+        {
+            "materia_id": "EST101",
+            "materia": "Probabilidad",
+            "creditos": 6,
+            "parcial_1": 8.6,
+            "parcial_2": 6.4,
+            "final": 6.1,
+            "promedio_materia": 7.033333333333334,
+            "aprobado": true
+        },
+        {
+            "materia_id": "EST102",
+            "materia": "Estadística Inferencial",
+            "creditos": 6,
+            "parcial_1": 4.8,
+            "parcial_2": 4.7,
+            "final": 5.8,
+            "promedio_materia": 5.1000000000000005,
+            "aprobado": false
+        },
+        {
+            "materia_id": "MAT101",
+            "materia": "Cálculo Diferencial",
+            "creditos": 8,
+            "parcial_1": 5.8,
+            "parcial_2": 7.2,
+            "final": 7.0,
+            "promedio_materia": 6.666666666666667,
+            "aprobado": true
+        },
+        {
+            "materia_id": "MAT102",
+            "materia": "Cálculo Integral",
+            "creditos": 8,
+            "parcial_1": 6.1,
+            "parcial_2": 4.5,
+            "final": 4.8,
+            "promedio_materia": 5.133333333333333,
+            "aprobado": false
+        },
+        {
+            "materia_id": "PROG101",
+            "materia": "Programación I",
+            "creditos": 6,
+            "parcial_1": 3.9,
+            "parcial_2": 7.5,
+            "final": 6.9,
+            "promedio_materia": 6.1000000000000005,
+            "aprobado": true
+        },
+        {
+            "materia_id": "PROG102",
+            "materia": "Programación II",
+            "creditos": 6,
+            "parcial_1": 4.9,
+            "parcial_2": 5.8,
+            "final": 5.4,
+            "promedio_materia": 5.366666666666667,
+            "aprobado": false
+        }
+    ],
+    "promedio_general": 6.2,
+    "creditos_cursados": 46,
+    "materias_aprobadas": 4,
+    "materias_reprobadas": 3
+}
